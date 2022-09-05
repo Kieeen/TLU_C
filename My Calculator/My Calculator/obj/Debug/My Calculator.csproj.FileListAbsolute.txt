@@ -1,0 +1,17 @@
+D:\A38221\My Calculator\My Calculator\bin\Debug\My Calculator.exe.config
+D:\A38221\My Calculator\My Calculator\bin\Debug\My Calculator.exe
+D:\A38221\My Calculator\My Calculator\bin\Debug\My Calculator.pdb
+D:\A38221\My Calculator\My Calculator\obj\Debug\My_Calculator.Properties.Resources.resources
+D:\A38221\My Calculator\My Calculator\obj\Debug\My Calculator.csproj.GenerateResource.Cache
+D:\A38221\My Calculator\My Calculator\obj\Debug\My Calculator.exe
+D:\A38221\My Calculator\My Calculator\obj\Debug\My Calculator.pdb
+D:\A38221\My Calculator\My Calculator\obj\Debug\My_Calculator.MyCalculator.resources
+D:\a38219\My Calculator\My Calculator\bin\Debug\My Calculator.exe.config
+D:\a38219\My Calculator\My Calculator\obj\Debug\My Calculator.exe
+D:\a38219\My Calculator\My Calculator\obj\Debug\My Calculator.pdb
+D:\a38219\My Calculator\My Calculator\bin\Debug\My Calculator.exe
+D:\a38219\My Calculator\My Calculator\bin\Debug\My Calculator.pdb
+D:\a38219\My Calculator\My Calculator\obj\Debug\My Calculator.csprojResolveAssemblyReference.cache
+D:\a38219\My Calculator\My Calculator\obj\Debug\My_Calculator.MyCalculator.resources
+D:\a38219\My Calculator\My Calculator\obj\Debug\My_Calculator.Properties.Resources.resources
+D:\a38219\My Calculator\My Calculator\obj\Debug\My Calculator.csproj.GenerateResource.Cache
