@@ -1,0 +1,9 @@
+D:\dan\net\My Image Viewer\My Image Viewer\bin\Debug\My Image Viewer.exe.config
+D:\dan\net\My Image Viewer\My Image Viewer\bin\Debug\My Image Viewer.exe
+D:\dan\net\My Image Viewer\My Image Viewer\bin\Debug\My Image Viewer.pdb
+D:\dan\net\My Image Viewer\My Image Viewer\obj\Debug\My Image Viewer.csprojResolveAssemblyReference.cache
+D:\dan\net\My Image Viewer\My Image Viewer\obj\Debug\My_Image_Viewer.Properties.Resources.resources
+D:\dan\net\My Image Viewer\My Image Viewer\obj\Debug\My Image Viewer.csproj.GenerateResource.Cache
+D:\dan\net\My Image Viewer\My Image Viewer\obj\Debug\My Image Viewer.exe
+D:\dan\net\My Image Viewer\My Image Viewer\obj\Debug\My Image Viewer.pdb
+D:\dan\net\My Image Viewer\My Image Viewer\obj\Debug\My_Image_Viewer.Form1.resources

@@ -1,0 +1,9 @@
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\bin\Debug\ViewImageInFolder.exe.config
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\bin\Debug\ViewImageInFolder.exe
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\bin\Debug\ViewImageInFolder.pdb
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\obj\Debug\ViewImageInFolder.csprojResolveAssemblyReference.cache
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\obj\Debug\ViewImageInFolder.Form1.resources
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\obj\Debug\ViewImageInFolder.Properties.Resources.resources
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\obj\Debug\ViewImageInFolder.csproj.GenerateResource.Cache
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\obj\Debug\ViewImageInFolder.exe
+D:\dan\net\ViewImageInFolder\ViewImageInFolder\obj\Debug\ViewImageInFolder.pdb

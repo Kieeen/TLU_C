@@ -1,0 +1,8 @@
+D:\dan\net\CoCaRo\CoCaRo\bin\Debug\CoCaRo.exe.config
+D:\dan\net\CoCaRo\CoCaRo\bin\Debug\CoCaRo.exe
+D:\dan\net\CoCaRo\CoCaRo\bin\Debug\CoCaRo.pdb
+D:\dan\net\CoCaRo\CoCaRo\obj\Debug\CoCaRo.Form1.resources
+D:\dan\net\CoCaRo\CoCaRo\obj\Debug\CoCaRo.Properties.Resources.resources
+D:\dan\net\CoCaRo\CoCaRo\obj\Debug\CoCaRo.csproj.GenerateResource.Cache
+D:\dan\net\CoCaRo\CoCaRo\obj\Debug\CoCaRo.exe
+D:\dan\net\CoCaRo\CoCaRo\obj\Debug\CoCaRo.pdb

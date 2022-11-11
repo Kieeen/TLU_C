@@ -1,6 +1,6 @@
 ﻿namespace My_Calculator
 {
-    partial class MyCalculator
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,229 +28,204 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
             this.txtDisplay = new System.Windows.Forms.TextBox();
-            this.nutC = new System.Windows.Forms.Button();
-            this.nut9 = new System.Windows.Forms.Button();
-            this.nut8 = new System.Windows.Forms.Button();
-            this.nut7 = new System.Windows.Forms.Button();
-            this.nutT = new System.Windows.Forms.Button();
-            this.nut6 = new System.Windows.Forms.Button();
-            this.nut5 = new System.Windows.Forms.Button();
-            this.nut4 = new System.Windows.Forms.Button();
-            this.nutN = new System.Windows.Forms.Button();
-            this.nut3 = new System.Windows.Forms.Button();
-            this.nut2 = new System.Windows.Forms.Button();
-            this.nut1 = new System.Windows.Forms.Button();
-            this.NutChia = new System.Windows.Forms.Button();
-            this.nut0 = new System.Windows.Forms.Button();
-            this.NutOk = new System.Windows.Forms.Button();
-            this.NutCl = new System.Windows.Forms.Button();
-            this.NutCham = new System.Windows.Forms.Button();
+            this.btnChia = new System.Windows.Forms.Button();
+            this.btnNhan = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
+            this.btnCong = new System.Windows.Forms.Button();
+            this.btnOk = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btn0
+            // 
+            this.btn0.Location = new System.Drawing.Point(117, 241);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(33, 28);
+            this.btn0.TabIndex = 0;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(54, 194);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(33, 28);
+            this.btn1.TabIndex = 1;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(117, 194);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(33, 28);
+            this.btn2.TabIndex = 2;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(182, 194);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(33, 28);
+            this.btn3.TabIndex = 3;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // btn6
+            // 
+            this.btn6.Location = new System.Drawing.Point(182, 149);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(33, 28);
+            this.btn6.TabIndex = 6;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            // 
+            // btn5
+            // 
+            this.btn5.Location = new System.Drawing.Point(117, 149);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(33, 28);
+            this.btn5.TabIndex = 5;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.Location = new System.Drawing.Point(54, 149);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(33, 28);
+            this.btn4.TabIndex = 4;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            // 
+            // btn9
+            // 
+            this.btn9.Location = new System.Drawing.Point(182, 104);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(33, 28);
+            this.btn9.TabIndex = 9;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            // 
+            // btn8
+            // 
+            this.btn8.Location = new System.Drawing.Point(117, 104);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(33, 28);
+            this.btn8.TabIndex = 8;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            // 
+            // btn7
+            // 
+            this.btn7.Location = new System.Drawing.Point(54, 104);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(33, 28);
+            this.btn7.TabIndex = 7;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // txtDisplay
             // 
-            this.txtDisplay.Location = new System.Drawing.Point(53, 51);
-            this.txtDisplay.Multiline = true;
+            this.txtDisplay.Location = new System.Drawing.Point(2, 63);
             this.txtDisplay.Name = "txtDisplay";
-            this.txtDisplay.Size = new System.Drawing.Size(270, 68);
-            this.txtDisplay.TabIndex = 37;
+            this.txtDisplay.Size = new System.Drawing.Size(264, 20);
+            this.txtDisplay.TabIndex = 10;
             this.txtDisplay.Text = "0";
             this.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtDisplay.TextChanged += new System.EventHandler(this.txtDisplay_TextChanged);
             // 
-            // nutC
+            // btnChia
             // 
-            this.nutC.Location = new System.Drawing.Point(231, 149);
-            this.nutC.Name = "nutC";
-            this.nutC.Size = new System.Drawing.Size(34, 37);
-            this.nutC.TabIndex = 36;
-            this.nutC.Text = "+";
-            this.nutC.UseVisualStyleBackColor = true;
-            this.nutC.Click += new System.EventHandler(this.nutC_Click);
+            this.btnChia.Location = new System.Drawing.Point(233, 104);
+            this.btnChia.Name = "btnChia";
+            this.btnChia.Size = new System.Drawing.Size(33, 28);
+            this.btnChia.TabIndex = 13;
+            this.btnChia.Text = "/";
+            this.btnChia.UseVisualStyleBackColor = true;
             // 
-            // nut9
+            // btnNhan
             // 
-            this.nut9.Location = new System.Drawing.Point(173, 149);
-            this.nut9.Name = "nut9";
-            this.nut9.Size = new System.Drawing.Size(34, 37);
-            this.nut9.TabIndex = 35;
-            this.nut9.Text = "9";
-            this.nut9.UseVisualStyleBackColor = true;
-            this.nut9.Click += new System.EventHandler(this.nut9_Click);
+            this.btnNhan.Location = new System.Drawing.Point(233, 149);
+            this.btnNhan.Name = "btnNhan";
+            this.btnNhan.Size = new System.Drawing.Size(33, 28);
+            this.btnNhan.TabIndex = 12;
+            this.btnNhan.Text = "*";
+            this.btnNhan.UseVisualStyleBackColor = true;
             // 
-            // nut8
+            // btnTru
             // 
-            this.nut8.Location = new System.Drawing.Point(111, 149);
-            this.nut8.Name = "nut8";
-            this.nut8.Size = new System.Drawing.Size(34, 37);
-            this.nut8.TabIndex = 34;
-            this.nut8.Text = "8";
-            this.nut8.UseVisualStyleBackColor = true;
-            this.nut8.Click += new System.EventHandler(this.nut8_Click);
+            this.btnTru.Location = new System.Drawing.Point(233, 194);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(33, 28);
+            this.btnTru.TabIndex = 11;
+            this.btnTru.Text = "-";
+            this.btnTru.UseVisualStyleBackColor = true;
             // 
-            // nut7
+            // btnCong
             // 
-            this.nut7.Location = new System.Drawing.Point(53, 149);
-            this.nut7.Name = "nut7";
-            this.nut7.Size = new System.Drawing.Size(34, 37);
-            this.nut7.TabIndex = 33;
-            this.nut7.Text = "7";
-            this.nut7.UseVisualStyleBackColor = true;
-            this.nut7.Click += new System.EventHandler(this.nut7_Click);
+            this.btnCong.Location = new System.Drawing.Point(233, 241);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(33, 28);
+            this.btnCong.TabIndex = 14;
+            this.btnCong.Text = "+";
+            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
-            // nutT
+            // btnOk
             // 
-            this.nutT.Location = new System.Drawing.Point(231, 206);
-            this.nutT.Name = "nutT";
-            this.nutT.Size = new System.Drawing.Size(34, 37);
-            this.nutT.TabIndex = 32;
-            this.nutT.Text = "-";
-            this.nutT.UseVisualStyleBackColor = true;
+            this.btnOk.Location = new System.Drawing.Point(233, 290);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(33, 28);
+            this.btnOk.TabIndex = 15;
+            this.btnOk.Text = "=";
+            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // nut6
-            // 
-            this.nut6.Location = new System.Drawing.Point(173, 206);
-            this.nut6.Name = "nut6";
-            this.nut6.Size = new System.Drawing.Size(34, 37);
-            this.nut6.TabIndex = 31;
-            this.nut6.Text = "6";
-            this.nut6.UseVisualStyleBackColor = true;
-            this.nut6.Click += new System.EventHandler(this.nut6_Click);
-            // 
-            // nut5
-            // 
-            this.nut5.Location = new System.Drawing.Point(111, 206);
-            this.nut5.Name = "nut5";
-            this.nut5.Size = new System.Drawing.Size(34, 37);
-            this.nut5.TabIndex = 30;
-            this.nut5.Text = "5";
-            this.nut5.UseVisualStyleBackColor = true;
-            this.nut5.Click += new System.EventHandler(this.nut5_Click);
-            // 
-            // nut4
-            // 
-            this.nut4.Location = new System.Drawing.Point(53, 206);
-            this.nut4.Name = "nut4";
-            this.nut4.Size = new System.Drawing.Size(34, 37);
-            this.nut4.TabIndex = 29;
-            this.nut4.Text = "4";
-            this.nut4.UseVisualStyleBackColor = true;
-            this.nut4.Click += new System.EventHandler(this.nut4_Click);
-            // 
-            // nutN
-            // 
-            this.nutN.Location = new System.Drawing.Point(231, 260);
-            this.nutN.Name = "nutN";
-            this.nutN.Size = new System.Drawing.Size(34, 37);
-            this.nutN.TabIndex = 28;
-            this.nutN.Text = "*";
-            this.nutN.UseVisualStyleBackColor = true;
-            // 
-            // nut3
-            // 
-            this.nut3.Location = new System.Drawing.Point(173, 260);
-            this.nut3.Name = "nut3";
-            this.nut3.Size = new System.Drawing.Size(34, 37);
-            this.nut3.TabIndex = 27;
-            this.nut3.Text = "3";
-            this.nut3.UseVisualStyleBackColor = true;
-            this.nut3.Click += new System.EventHandler(this.nut3_Click);
-            // 
-            // nut2
-            // 
-            this.nut2.Location = new System.Drawing.Point(111, 260);
-            this.nut2.Name = "nut2";
-            this.nut2.Size = new System.Drawing.Size(34, 37);
-            this.nut2.TabIndex = 26;
-            this.nut2.Text = "2";
-            this.nut2.UseVisualStyleBackColor = true;
-            this.nut2.Click += new System.EventHandler(this.nut2_Click);
-            // 
-            // nut1
-            // 
-            this.nut1.Location = new System.Drawing.Point(53, 260);
-            this.nut1.Name = "nut1";
-            this.nut1.Size = new System.Drawing.Size(34, 37);
-            this.nut1.TabIndex = 25;
-            this.nut1.Text = "1";
-            this.nut1.UseVisualStyleBackColor = true;
-            this.nut1.Click += new System.EventHandler(this.nut1_Click);
-            // 
-            // NutChia
-            // 
-            this.NutChia.Location = new System.Drawing.Point(231, 318);
-            this.NutChia.Name = "NutChia";
-            this.NutChia.Size = new System.Drawing.Size(34, 37);
-            this.NutChia.TabIndex = 24;
-            this.NutChia.Text = "/";
-            this.NutChia.UseVisualStyleBackColor = true;
-            // 
-            // nut0
-            // 
-            this.nut0.Location = new System.Drawing.Point(111, 318);
-            this.nut0.Name = "nut0";
-            this.nut0.Size = new System.Drawing.Size(34, 37);
-            this.nut0.TabIndex = 22;
-            this.nut0.Text = "0";
-            this.nut0.UseVisualStyleBackColor = true;
-            this.nut0.Click += new System.EventHandler(this.nut0_Click);
-            // 
-            // NutOk
-            // 
-            this.NutOk.Location = new System.Drawing.Point(289, 206);
-            this.NutOk.Name = "NutOk";
-            this.NutOk.Size = new System.Drawing.Size(34, 37);
-            this.NutOk.TabIndex = 21;
-            this.NutOk.Text = "=";
-            this.NutOk.UseVisualStyleBackColor = true;
-            this.NutOk.Click += new System.EventHandler(this.NutOk_Click);
-            // 
-            // NutCl
-            // 
-            this.NutCl.Location = new System.Drawing.Point(289, 149);
-            this.NutCl.Name = "NutCl";
-            this.NutCl.Size = new System.Drawing.Size(34, 37);
-            this.NutCl.TabIndex = 38;
-            this.NutCl.Text = "C";
-            this.NutCl.UseVisualStyleBackColor = true;
-            this.NutCl.Click += new System.EventHandler(this.NutCl_Click);
-            // 
-            // NutCham
-            // 
-            this.NutCham.Location = new System.Drawing.Point(173, 318);
-            this.NutCham.Name = "NutCham";
-            this.NutCham.Size = new System.Drawing.Size(34, 37);
-            this.NutCham.TabIndex = 39;
-            this.NutCham.Text = ".";
-            this.NutCham.UseVisualStyleBackColor = true;
-            this.NutCham.Click += new System.EventHandler(this.NutCham_Click);
-            // 
-            // MyCalculator
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 415);
-            this.Controls.Add(this.NutCham);
-            this.Controls.Add(this.NutCl);
+            this.ClientSize = new System.Drawing.Size(296, 415);
+            this.Controls.Add(this.btnOk);
+            this.Controls.Add(this.btnCong);
+            this.Controls.Add(this.btnChia);
+            this.Controls.Add(this.btnNhan);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.txtDisplay);
-            this.Controls.Add(this.nutC);
-            this.Controls.Add(this.nut9);
-            this.Controls.Add(this.nut8);
-            this.Controls.Add(this.nut7);
-            this.Controls.Add(this.nutT);
-            this.Controls.Add(this.nut6);
-            this.Controls.Add(this.nut5);
-            this.Controls.Add(this.nut4);
-            this.Controls.Add(this.nutN);
-            this.Controls.Add(this.nut3);
-            this.Controls.Add(this.nut2);
-            this.Controls.Add(this.nut1);
-            this.Controls.Add(this.NutChia);
-            this.Controls.Add(this.nut0);
-            this.Controls.Add(this.NutOk);
-            this.Name = "MyCalculator";
-            this.Text = "My Calculator";
+            this.Controls.Add(this.btn9);
+            this.Controls.Add(this.btn8);
+            this.Controls.Add(this.btn7);
+            this.Controls.Add(this.btn6);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
+            this.Controls.Add(this.btn0);
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,24 +233,22 @@
 
         #endregion
 
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn7;
         private System.Windows.Forms.TextBox txtDisplay;
-        private System.Windows.Forms.Button nutC;
-        private System.Windows.Forms.Button nut9;
-        private System.Windows.Forms.Button nut8;
-        private System.Windows.Forms.Button nut7;
-        private System.Windows.Forms.Button nutT;
-        private System.Windows.Forms.Button nut6;
-        private System.Windows.Forms.Button nut5;
-        private System.Windows.Forms.Button nut4;
-        private System.Windows.Forms.Button nutN;
-        private System.Windows.Forms.Button nut3;
-        private System.Windows.Forms.Button nut2;
-        private System.Windows.Forms.Button nut1;
-        private System.Windows.Forms.Button NutChia;
-        private System.Windows.Forms.Button nut0;
-        private System.Windows.Forms.Button NutOk;
-        private System.Windows.Forms.Button NutCl;
-        private System.Windows.Forms.Button NutCham;
+        private System.Windows.Forms.Button btnChia;
+        private System.Windows.Forms.Button btnNhan;
+        private System.Windows.Forms.Button btnTru;
+        private System.Windows.Forms.Button btnCong;
+        private System.Windows.Forms.Button btnOk;
     }
 }
 
